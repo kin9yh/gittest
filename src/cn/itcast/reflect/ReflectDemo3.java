@@ -49,7 +49,7 @@ public class ReflectDemo3 {
                  * Constructor<?>[] getDeclaredConstructors()
          */
 
-
+//wqeqwe
         //Constructor<T> getConstructor(类<?>... parameterTypes)
         Constructor constructor = personClass.getConstructor(String.class, int.class);
         System.out.println(constructor);
